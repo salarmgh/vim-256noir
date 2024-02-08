@@ -22,21 +22,21 @@ let g:colors_name = "256_noir"
 
 if has("gui_running") || &t_Co == 256
     hi Normal cterm=NONE ctermfg=250 ctermbg=16 gui=NONE guifg=#bcbcbc guibg=#000000
-    hi Keyword cterm=NONE ctermfg=255 ctermbg=16 gui=NONE guifg=#eeeeee guibg=#000000
+    hi Keyword cterm=NONE ctermfg=245 ctermbg=16 gui=NONE guifg=#eeeeee guibg=#000000
     hi Constant cterm=NONE ctermfg=252 ctermbg=16 gui=NONE guifg=#d0d0d0 guibg=#000000
-    hi String cterm=NONE ctermfg=245 ctermbg=16 gui=NONE guifg=#8a8a8a guibg=#000000
+    hi String cterm=NONE ctermfg=242 ctermbg=16 gui=NONE guifg=#8a8a8a guibg=#000000
     hi Comment cterm=NONE ctermfg=240 ctermbg=16 gui=NONE guifg=#585858 guibg=#000000
-    hi Number cterm=NONE ctermfg=245 ctermbg=16 gui=NONE guifg=#ff0000 guibg=#000000
+    hi Number cterm=NONE ctermfg=242 ctermbg=16 gui=NONE guifg=#ff0000 guibg=#000000
     hi Error cterm=NONE ctermfg=255 ctermbg=88 gui=NONE guifg=#eeeeee guibg=#870000
-    hi ErrorMsg cterm=NONE ctermfg=255 ctermbg=124 gui=NONE guifg=#eeeeee guibg=#af0000
+    hi ErrorMsg cterm=NONE ctermfg=255 ctermbg=240 gui=NONE guifg=#eeeeee guibg=#af0000
     hi Search cterm=NONE ctermfg=245 ctermbg=236 gui=NONE guifg=#8a8a8a guibg=#303030
     hi IncSearch cterm=reverse ctermfg=255 ctermbg=245 gui=reverse guifg=#eeeeee guibg=#8a8a8a
-    hi DiffChange cterm=NONE ctermfg=160 ctermbg=255 gui=NONE guifg=#d70000 guibg=#eeeeee
+    hi DiffChange cterm=NONE ctermfg=240 ctermbg=250 gui=NONE guifg=#d70000 guibg=#eeeeee
     hi DiffText cterm=bold ctermfg=250 ctermbg=196 gui=bold guifg=#bcbcbc guibg=#ff0000
-    hi SignColumn cterm=NONE ctermfg=124 ctermbg=240 gui=NONE guifg=#af0000 guibg=#585858
+    hi SignColumn cterm=NONE ctermfg=240 ctermbg=240 gui=NONE guifg=#af0000 guibg=#585858
     hi SpellBad cterm=undercurl ctermfg=255 ctermbg=88 gui=undercurl guifg=#eeeeee guibg=#870000
-    hi SpellCap cterm=NONE ctermfg=255 ctermbg=124 gui=NONE guifg=#eeeeee guibg=#af0000
-    hi SpellRare cterm=NONE ctermfg=124 ctermbg=16 gui=NONE guifg=#af0000 guibg=#000000
+    hi SpellCap cterm=NONE ctermfg=255 ctermbg=240 gui=NONE guifg=#eeeeee guibg=#af0000
+    hi SpellRare cterm=NONE ctermfg=240 ctermbg=16 gui=NONE guifg=#af0000 guibg=#000000
     hi WildMenu cterm=NONE ctermfg=240 ctermbg=255 gui=NONE guifg=#585858 guibg=#eeeeee
     hi Pmenu cterm=NONE ctermfg=255 ctermbg=240 gui=NONE guifg=#eeeeee guibg=#585858
     hi PmenuThumb cterm=NONE ctermfg=232 ctermbg=240 gui=NONE guifg=#080808 guibg=#585858
